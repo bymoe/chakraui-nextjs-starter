@@ -1,0 +1,14 @@
+.mesh--1 {
+  background-color: hsla(289, 0%, 100%, 1);
+  background-image: radial-gradient(
+      at 23% 8%,
+      hsla(213, 0%, 100%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 55% 74%, hsla(308, 74%, 63%, 0.27) 0px, transparent 50%),
+    radial-gradient(at 12% 70%, hsla(165, 0%, 100%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 42%, hsla(342, 88%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 87%, hsla(36, 0%, 100%, 1) 0px, transparent 50%),
+    radial-gradient(at 35% 48%, hsla(348, 60%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 94% 16%, hsla(194, 83%, 62%, 1) 0px, transparent 50%);
+}
