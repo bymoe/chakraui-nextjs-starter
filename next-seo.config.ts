@@ -1,13 +1,14 @@
-const shareImage = "/meta_image.png";
+const shareImage =
+  "https://chakraui-nextjs-starter.vercel.app/brand/meta_image.png";
 const title = "Chakra UI, TypeScript, Next-seo & Next.js starter template";
 const defaultSeo = {
   title,
   description: "Chakra UI, TypeScript, Next-seo & Next.js starter template",
-  canonical: "https://demo.vercel.app/",
+  canonical: "https://chakraui-nextjs-starter.vercel.app",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://demo.vercel.app/",
+    url: "https://chakraui-nextjs-starter.vercel.app",
     site_name: "ByMoe",
     images: [{ url: shareImage }],
   },
