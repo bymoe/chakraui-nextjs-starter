@@ -11,11 +11,6 @@ import { AppLayout, ThemeLayout } from "components/layouts";
 // css
 import "styles/app.css";
 import "nprogress/nprogress.css";
-// fonts
-import "@fontsource/inter/400.css";
-import "@fontsource/inter/500.css";
-import "@fontsource/inter/600.css";
-import "@fontsource/inter/700.css";
 
 // NProgress binding routes
 Router.events.on("routeChangeStart", () => NProgress.start());

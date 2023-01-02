@@ -6,7 +6,16 @@ import { Button } from "./button";
 export const theme = extendTheme({
   // Global Styles
   styles: {
-    global: {},
+    global: {
+      "#nprogress .bar": {
+        background: "var(--chakra-colors-blue-300) !important",
+        zIndex: "2000 !important",
+        height: "3px",
+      },
+      "#nprogress .spinner-icon": {
+        display: "none",
+      },
+    },
   },
   colors,
   fonts: {

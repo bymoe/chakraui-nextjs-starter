@@ -17,10 +17,10 @@ export const NextLink = forwardRef<HTMLAnchorElement, NextComposedProps>(
       scroll={scroll}
       shallow={shallow}
       prefetch={false}
+      ref={ref}
+      {...restProps}
     >
-      <a ref={ref} {...restProps}>
-        {children}
-      </a>
+      {children}
     </Link>
   )
 );
